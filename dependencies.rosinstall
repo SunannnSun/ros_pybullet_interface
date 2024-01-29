@@ -1,0 +1,4 @@
+- git:
+    local-name: custom_ros_tools
+    uri: https://github.com/ros-pybullet/custom_ros_tools.git
+

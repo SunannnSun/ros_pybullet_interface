@@ -14,32 +14,32 @@ echo "Installing the ROS-PyBullet Interface ..."
 cd $(catkin locate)/src
 
 git clone https://github.com/ros-pybullet/custom_ros_tools.git
-git clone https://github.com/ros-pybullet/dmp.git
-git clone https://github.com/ros-pybullet/ik_ros.git
-git clone https://github.com/ros-pybullet/operator_node.git
-git clone https://github.com/ros-pybullet/teleop.git
-git clone https://github.com/ros-pybullet/ros-keyboard.git
+# git clone https://github.com/ros-pybullet/dmp.git
+# git clone https://github.com/ros-pybullet/ik_ros.git
+# git clone https://github.com/ros-pybullet/operator_node.git
+# git clone https://github.com/ros-pybullet/teleop.git
+# git clone https://github.com/ros-pybullet/ros-keyboard.git
 
 
-git clone https://github.com/ros-pybullet/ros_kortex.git
-mv -v ros_kortex/kortex_description .
-rm -rfv ros_kortex
+# git clone https://github.com/ros-pybullet/ros_kortex.git
+# mv -v ros_kortex/kortex_description .
+# rm -rfv ros_kortex
 
-git clone https://github.com/ros-pybullet/nextagea.git
-mv -v nextagea/nextagea_description .
-rm -rfv nextagea
+# git clone https://github.com/ros-pybullet/nextagea.git
+# mv -v nextagea/nextagea_description .
+# rm -rfv nextagea
 
-git clone -b UoE_SLMC https://github.com/ros-pybullet/talos_robot.git
-git clone https://github.com/ros-pybullet/exotica.git
+# git clone -b UoE_SLMC https://github.com/ros-pybullet/talos_robot.git
+# git clone https://github.com/ros-pybullet/exotica.git
 
-git clone https://github.com/ros-pybullet/trac_ik.git
+# git clone https://github.com/ros-pybullet/trac_ik.git
 
 # ==========================================================================
 # Install dependancies
 
 # Install SDL (required by ros-keyboard)
 # https://www.libsdl.org
-sudo apt install libsdl2-dev libsdl2-2.0-0
+# sudo apt install libsdl2-dev libsdl2-2.0-0
 
 # Update rosdep and install deps
 rosdep update
